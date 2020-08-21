@@ -1,28 +1,59 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
+    <!-- <Baitap1 /> -->
+    <!-- <Baitap2 /> -->
+    <!-- <DataBinding /> -->
+    <!-- <HomeWork /> -->
+    <!-- <Computed /> -->
+    <!-- <Directive /> -->
+    <!-- <ExampleDirective /> -->
+    <User />
+    <BookingBus />
+    <Slot />
+    <FormValidation />
+    <!-- <LifeCycle /> -->
+    <Vuex />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+// import Baitap1 from "./baitap1";
+// import Baitap2 from "./baitap2";
+// import DataBinding from "./data-binding";
+// import HomeWork from "./homework";
+// import Computed from "./computed";
+// import Directive from "./directive";
+// import ExampleDirective from "./directive/example";
+import User from "./components/user";
+import BookingBus from "./booking-bus";
+import Slot from "./slot";
+import FormValidation from "./form-validation";
+// import LifeCycle from "./lifecycle";
+import Vuex from "./vuex";
 
 export default {
   name: "App",
   components: {
-    HelloWorld
+    // Baitap1,
+    // Baitap2,
+    // DataBinding,
+    // HomeWork,
+    // Computed,
+    // Directive,
+    // ExampleDirective
+    User,
+    BookingBus,
+    Slot,
+    FormValidation,
+    // LifeCycle,
+    Vuex
   }
 };
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+.title {
+  color: red;
 }
 </style>

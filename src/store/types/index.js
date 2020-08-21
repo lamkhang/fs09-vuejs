@@ -1,0 +1,2 @@
+export const COUNTER_INCREMENT = "counter/COUNTER_INCREMENT";
+export const COUNTER_DECREMENT = "counter/COUNTER_DECREMENT";
